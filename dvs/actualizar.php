@@ -5,6 +5,6 @@ session_start();
  
 exec("cd /var/www/html/;sudo git pull");
 
-//header("http://ea3eiz.com");
-echo "hola holaaaaaaa";
+header("../index_dvswitch_buster.php");
+
 ?>
