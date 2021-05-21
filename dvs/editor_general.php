@@ -257,14 +257,14 @@ h6{
 
 </form> -->
 
-<!-- <form method="post" action="cambia_password_especial.php">
+<form method="post" action="cambia_configuracion_id.php">
 
-        <input name="password_especial" class="fuente_boton3 form-control" placeholder="Introduce Password + Enter"> 
-            <div class="fondo_datos">Password especial: 
-                <span class="color_verde"><?php echo $password;?></span>
+        <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter"> 
+            <div class="fondo_datos">Id: 
+                <span class="color_verde"><?php echo $id;?></span>
             </div> 
 
-</form> -->
+</form>
 <br>
 
 <form method="post" action="../index_dvswitch_buster.php">
