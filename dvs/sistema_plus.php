@@ -1,23 +1,10 @@
 <?php 
 session_start();
 
-$callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$callsign = substr("$callsign", 9, 11);
-
-
-$id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$id = substr("$id", 3, 9);
-
-$port = exec("sudo sed -n '71p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$port = substr("$port", 5, 5);
-
-$password = exec("sudo sed -n '74p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$password = substr("$password", 9, 15);
-
-$ipsc2 = exec("sudo sed -n '70p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$ipsc2 = exec("sudo sed -n '70p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
 $ipsc2 = substr("$ipsc2", 8, 30);
 
-$options = exec("sudo sed -n '77p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$options = exec("sudo sed -n '77p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
 $options = substr("$options", 0, 50);
 
 
@@ -78,7 +65,7 @@ body{
     .caja_login1{
     position: absolute;
     width:430px;
-    top:200px;
+    top:100px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -100,7 +87,7 @@ body{
 .caja_login2{
     position: absolute;
     width:430px;
-    top:440px;
+    top:340px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -122,7 +109,7 @@ body{
 .caja_login3{
     position: absolute;
     width:430px;
-    top:605px;
+    top:505px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -140,11 +127,11 @@ body{
     font-size: 18PX;
 }    
 /*  ========   FIN PARAMETROS CAJA LOGIN 3========================================*/
-/*   ========   PARAMETROS CAJA LOGIN 4========================================*/
+/*   ========   PARAMETROS CAJA LOGIN 3========================================*/
 .caja_login4{
     position: absolute;
     width:430px;
-    top:830px;
+    top:730px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -161,30 +148,7 @@ body{
     z-index:1000;
     font-size: 18PX;
 }    
-/*  ========   FIN PARAMETROS CAJA LOGIN 4========================================*/
-
-/*   ========   PARAMETROS CAJA LOGIN 0========================================*/
-.caja_login0{
-    position: absolute;
-    width:430px;
-    top:0px;
-    left:10px;
-    margin-top: 20px;
-    padding: 0px 0px 0px 0px;
-    background-color: #60007F;
-    transition: all linear 0.55s;
-    -ms-transition: all linear 0.55s;
-    -moz-transition: all linear 0.55s;
-    -webkit-transition: all linear 0.55s;
-    -o-transition: all linear 0.55s;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 5px 5px 5px 5px;
-    z-index:1000;
-    font-size: 18PX;
-}    
-/*  ========   FIN PARAMETROS CAJA LOGIN 0========================================*/
+/*  ========   FIN PARAMETROS CAJA LOGIN 3========================================*/
 .fondo_datos{
     margin-top: 1px;
     margin-bottom: 7px;
@@ -206,43 +170,6 @@ body{
 
 
 <div class="container"> 
-
-
-
-<!--============== CAJA LOGIN 0====================================-->
-<div class="row">
-    <div class="col-md-4">
-        <div class="caja_login0 ">
-            <div class="panel-body">
-<form method="post" action="cambia_callsign_plus.php">
-
-        <input name="callsign" class="fuente_boton3 form-control" placeholder="Introduce Indicativo + Enter">
-            <div class="fondo_datos">Indicativo: 
-                <span class="color_verde"><?php echo $callsign;?></span>
-            </div>         
-
-</form>
-
-
-<form method="post" action="cambia_id_plus.php">
-
-        <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter">
-            <div class="fondo_datos">Id: 
-                <span class="color_verde"><?php echo $id;?></span>
-            </div>         
-
-</form>
-
-
-
-            </div><!-- panel-body -->
-       </div><!-- caja -->
-   </div><!-- "col-md-4 -->
-</div><!-- row -->
-<!--============== FIN CAJA LOGIN 0====================================-->
-
-<br>
-
 
 <!--============== CAJA LOGIN 1====================================-->
 <div class="row">
