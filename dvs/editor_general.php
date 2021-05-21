@@ -8,8 +8,8 @@ $callsign = substr("$callsign", 9, 11);
 $id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $id = substr("$id", 3, 9);
 
-$port = exec("sudo sed -n '71p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$port = substr("$port", 5, 5);
+$frecuencia = exec("sudo sed -n '8p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$frecuencia = substr("$frecuencia", 12, 9);
 
 ?>
 <!DOCTYPE html>
@@ -248,24 +248,25 @@ h6{
 
 </form>
 
-<!-- <form method="post" action="cambia_puerto_especial.php">
-
-        <input name="port_especial" class="fuente_boton3 form-control" placeholder="Introduce Port + Enter">
-            <div class="fondo_datos">Puerto Especial: 
-                <span class="color_verde"><?php echo $port;?></span>
-            </div>         
-
-</form> -->
-
 <form method="post" action="cambia_configuracion_id.php">
-
         <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id de 9 Dígitos + Enter"> 
             <div class="fondo_datos">Id: 
                 <span class="color_verde"><?php echo $id;?></span>
             </div> 
-
 </form>
-<br>
+
+<form method="post" action="cambia_configuracion_frecuencia.php">
+        <input name="frecuencia" class="fuente_boton3 form-control" placeholder="Introduce Frecuencia 9 dígitos sin puntos + Enter"> 
+            <div class="fondo_datos">Id: 
+                <span class="color_verde"><?php echo $frecuencia;?></span>
+            </div> 
+</form>
+
+
+
+
+
+
 
 <form method="post" action="../index_dvswitch_buster.php">
     <button class="btn btn-warning btn-sm btn-block" type="submit">VOLVER AL DASHBOARD</button>
