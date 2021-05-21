@@ -9,4 +9,5 @@ exec("sudo sed -i '2c Callsign=$indicativo' /opt/MMDVM_Bridge/MMDVM_Bridge_ESPEC
 
 header("Location:/dvs/editor_general.php");	
 
+
 ?>
