@@ -47,7 +47,7 @@ display: none;
 <div class="container"> 
 <div class="header">
 <center>
-<h2>DVSwitch Dashboard<?php echo $callsign;?></h2>
+<h2>DVSwitch Dashboard&nbsp;&nbsp;<?php echo $callsign;?></h2>
 </center>
 </div>
 <div class="content"><center>
