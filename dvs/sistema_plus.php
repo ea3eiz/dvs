@@ -2,7 +2,7 @@
 session_start();
 
 $callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
-$callsign = substr("$callsign", 8, 11);
+$callsign = substr("$callsign", 9, 11);
 
 
 $id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
