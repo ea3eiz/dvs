@@ -257,7 +257,7 @@ h6{
 
 <form method="post" action="cambia_configuracion_frecuencia.php">
         <input name="frecuencia" class="fuente_boton3 form-control" placeholder="Introduce Frecuencia 9 dígitos sin puntos + Enter"> 
-            <div class="fondo_datos">Id: 
+            <div class="fondo_datos">Frecuencia RXF-TXF: 
                 <span class="color_verde"><?php echo $frecuencia;?></span>
             </div> 
 </form>
