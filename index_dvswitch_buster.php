@@ -178,7 +178,7 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
 <button class="button link"><a href="/dvs/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
 <button class="button link_verde"><a href="especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
 <button class="button link_verde"><a href="/dvs/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
-<button class="button link_verde"><a href="/dvs/actualizar.php" class="btn btn-success" style="color:#fff;">ACTUALIZAR</a</buttton>
+<button class="button link_verde"><a href="/dvs/actualizar.php" class="btn btn-success" style="color:#fff;">ACTUALIZARfffffffff</a</buttton>
 
 
 <?php
