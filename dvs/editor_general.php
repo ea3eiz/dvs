@@ -259,7 +259,7 @@ h6{
 
 <form method="post" action="cambia_configuracion_id.php">
 
-        <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter"> 
+        <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id de 9 Dígitos + Enter"> 
             <div class="fondo_datos">Id: 
                 <span class="color_verde"><?php echo $id;?></span>
             </div> 
