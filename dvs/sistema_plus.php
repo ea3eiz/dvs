@@ -78,7 +78,7 @@ body{
     .caja_login1{
     position: absolute;
     width:430px;
-    top:100px;
+    top:200px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -100,7 +100,7 @@ body{
 .caja_login2{
     position: absolute;
     width:430px;
-    top:340px;
+    top:440px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -122,7 +122,7 @@ body{
 .caja_login3{
     position: absolute;
     width:430px;
-    top:505px;
+    top:605px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
@@ -144,7 +144,7 @@ body{
 .caja_login4{
     position: absolute;
     width:430px;
-    top:730px;
+    top:830px;
     left:10px;
     margin-top: 20px;
     padding: 0px 0px 0px 0px;
