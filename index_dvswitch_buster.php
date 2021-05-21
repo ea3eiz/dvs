@@ -5,7 +5,8 @@ include_once 'include/tools.php';
 session_start();
 if($_SESSION['permisos'] == 1)
 {
-
+    $callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+    $callsign = substr("$callsign", 9, 11);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -46,7 +47,7 @@ display: none;
 <div class="container"> 
 <div class="header">
 <center>
-<h2>DVSwitch Dashboard EA3EIZ</h2>
+<h2>DVSwitch Dashboard<?php echo $callsign;?<</h2>
 </center>
 </div>
 <div class="content"><center>
