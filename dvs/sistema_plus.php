@@ -214,6 +214,16 @@ body{
     <div class="col-md-4">
         <div class="caja_login0 ">
             <div class="panel-body">
+<form method="post" action="cambia_callsign_plus.php">
+
+        <input name="callsign" class="fuente_boton3 form-control" placeholder="Introduce Indicativo + Enter">
+            <div class="fondo_datos">Indicativo: 
+                <span class="color_verde"><?php echo $callsign;?></span>
+            </div>         
+
+</form>
+
+
 <form method="post" action="cambia_id_plus.php">
 
         <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter">
@@ -222,13 +232,16 @@ body{
             </div>         
 
 </form>
+
+
+
             </div><!-- panel-body -->
        </div><!-- caja -->
    </div><!-- "col-md-4 -->
 </div><!-- row -->
 <!--============== FIN CAJA LOGIN 0====================================-->
 
-
+<br>
 
 
 <!--============== CAJA LOGIN 1====================================-->
