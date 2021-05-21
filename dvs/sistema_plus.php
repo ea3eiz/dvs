@@ -1,6 +1,19 @@
 <?php 
 session_start();
 
+$callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$callsign = substr("$callsign", 8, 11);
+
+
+$id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$id = substr("$id", 3, 9);
+
+$port = exec("sudo sed -n '71p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$port = substr("$port", 5, 5);
+
+$password = exec("sudo sed -n '74p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$password = substr("$password", 9, 15);
+
 $ipsc2 = exec("sudo sed -n '70p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
 $ipsc2 = substr("$ipsc2", 8, 30);
 
@@ -170,6 +183,20 @@ body{
 
 
 <div class="container"> 
+
+<form method="post" action="cambia_id_plus.php">
+
+        <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter">
+            <div class="fondo_datos">Id: 
+                <span class="color_verde"><?php echo $id;?></span>
+            </div>         
+
+</form>
+
+
+
+
+
 
 <!--============== CAJA LOGIN 1====================================-->
 <div class="row">
