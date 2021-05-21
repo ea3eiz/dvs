@@ -140,7 +140,7 @@ body{
     font-size: 18PX;
 }    
 /*  ========   FIN PARAMETROS CAJA LOGIN 3========================================*/
-/*   ========   PARAMETROS CAJA LOGIN 3========================================*/
+/*   ========   PARAMETROS CAJA LOGIN 4========================================*/
 .caja_login4{
     position: absolute;
     width:430px;
@@ -161,7 +161,30 @@ body{
     z-index:1000;
     font-size: 18PX;
 }    
-/*  ========   FIN PARAMETROS CAJA LOGIN 3========================================*/
+/*  ========   FIN PARAMETROS CAJA LOGIN 4========================================*/
+
+/*   ========   PARAMETROS CAJA LOGIN 0========================================*/
+.caja_login0{
+    position: absolute;
+    width:430px;
+    top:0px;
+    left:10px;
+    margin-top: 20px;
+    padding: 0px 0px 0px 0px;
+    background-color: #60007F;
+    transition: all linear 0.55s;
+    -ms-transition: all linear 0.55s;
+    -moz-transition: all linear 0.55s;
+    -webkit-transition: all linear 0.55s;
+    -o-transition: all linear 0.55s;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px 5px 5px 5px;
+    z-index:1000;
+    font-size: 18PX;
+}    
+/*  ========   FIN PARAMETROS CAJA LOGIN 0========================================*/
 .fondo_datos{
     margin-top: 1px;
     margin-bottom: 7px;
@@ -184,6 +207,13 @@ body{
 
 <div class="container"> 
 
+
+
+<!--============== CAJA LOGIN 1====================================-->
+<div class="row">
+    <div class="col-md-4">
+        <div class="caja_login1 ">
+            <div class="panel-body">
 <form method="post" action="cambia_id_plus.php">
 
         <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id + Enter">
@@ -192,7 +222,10 @@ body{
             </div>         
 
 </form>
-
+            </div><!-- panel-body -->
+       </div><!-- caja -->
+   </div><!-- "col-md-4 -->
+</div><!-- row -->
 
 
 
