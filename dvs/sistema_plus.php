@@ -209,10 +209,10 @@ body{
 
 
 
-<!--============== CAJA LOGIN 1====================================-->
+<!--============== CAJA LOGIN 0====================================-->
 <div class="row">
     <div class="col-md-4">
-        <div class="caja_login1 ">
+        <div class="caja_login0 ">
             <div class="panel-body">
 <form method="post" action="cambia_id_plus.php">
 
@@ -226,7 +226,7 @@ body{
        </div><!-- caja -->
    </div><!-- "col-md-4 -->
 </div><!-- row -->
-
+<!--============== FIN CAJA LOGIN 0====================================-->
 
 
 
