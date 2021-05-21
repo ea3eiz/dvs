@@ -1,23 +1,23 @@
 <?php 
 session_start();
 
-$callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $callsign = substr("$callsign", 8, 11);
 
 
-$id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $id = substr("$id", 3, 9);
 
-$port = exec("sudo sed -n '71p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$port = exec("sudo sed -n '71p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $port = substr("$port", 5, 5);
 
-$password = exec("sudo sed -n '74p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$password = exec("sudo sed -n '74p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $password = substr("$password", 9, 15);
 
-$ipsc2 = exec("sudo sed -n '70p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$ipsc2 = exec("sudo sed -n '70p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $ipsc2 = substr("$ipsc2", 8, 30);
 
-$options = exec("sudo sed -n '77p' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
+$options = exec("sudo sed -n '77p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $options = substr("$options", 0, 50);
 
 
