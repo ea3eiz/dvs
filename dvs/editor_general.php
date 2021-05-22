@@ -302,9 +302,9 @@ h6{
 </form>
 
 <form method="post" action="cambia_configuracion_location.php">
-        <input name="ciudad" class="fuente_boton3 form-control" placeholder="Introduce Ciudad  + Enter"> 
+        <input name="location" class="fuente_boton3 form-control" placeholder="Introduce Ciudad  + Enter"> 
             <div class="fondo_datos">Ciudad: 
-                <span class="color_verde"><?php echo $ciudad;?></span>
+                <span class="color_verde"><?php echo $location;?></span>
             </div> 
 </form>
 
