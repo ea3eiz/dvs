@@ -21,7 +21,7 @@
     { "disp": "RoboLady", "tg": "3120610" },
     { "disp": "TGIF", "tg": "passw0rd@tgif.network:62031!0" },
     { "disp": "Brandmeister", "tg": "passw0rd@3101.repeater.net:62031!4000" },
-    { "disp": "Brandmeister_Spain", "tg": "274689@master.spain-dmr.es:62031!21465" },
+    { "disp": "Brandmeister_21465", "tg": "27469@master.spain-dmr.es:62031!21465" },
     { "disp": "QRM Network", "tg": "passw0rd@qrm.kc3ol.net:62031!4000" },
     { "disp": "XRF054", "tg": "passw0rd@xrf054.metro-uhf.org:62030:XLX:4005!9" },
     { "disp": "XLX740", "tg": "passw0rd@xlx740.kc1awv.net:62030:XLX:4005!9" },
