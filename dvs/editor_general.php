@@ -310,7 +310,7 @@ h6{
             </div> 
 </form>
 
-<form method="post" action="cambia_configuracion_location.php">
+<form method="post" action="cambia_configuracion_url.php">
         <input name="url" class="fuente_boton3 form-control" placeholder="Introduce Web preferida  + Enter"> 
             <div class="fondo_datos">URL: 
                 <span class="color_verde"><?php echo $url;?></span>
