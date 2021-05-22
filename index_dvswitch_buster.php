@@ -154,7 +154,7 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
     ?>
 
 </fieldset>
-<button class="button link-negro" ><a href="brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
+<button class="button link_negro" ><a href="brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
 <button class="button link_negro"><a href="dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
 <button class="button link_negro"><a href="especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
 <button class="button link_naranja"><a href="/dvs/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
