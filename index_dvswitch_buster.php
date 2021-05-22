@@ -56,23 +56,6 @@ display: none;
 <button class="button link_naranja"><a href="/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
 
 
-<!--============== CAJA LOGIN ====================================-->
-<div id="caja_cambiar_port">
-    <div class="panel-body">
-                    <!-- <p class="text-center"><img src="img/Logo_Ader.png" height="40"></p> -->
-<form method="post" action="cambia_puerto.php">
-        <div class="form-group">
-            <div class="input-group">
-                    <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> -->
-              <input name="puerto" id="puerto" type="text" class="form-control" placeholder="Puerto:" required autofocus>
-            </div>
-        </div>                                                
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>                            
-</form>
-</div>
-    </div>
-<!--============== FIN CAJA LOGIN ====================== -->
-
 <?php
 if ( RXMONITOR == "YES" ) {
 echo '<button class="button link" onclick="playAudioToggle(8080, this)"><b>&nbsp;&nbsp;&nbsp;<img src=images/speaker.png alt="" style="vertical-align:middle">&nbsp;&nbsp;RX Monitor&nbsp;&nbsp;&nbsp;</b></button>';}
