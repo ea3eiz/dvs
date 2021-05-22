@@ -17,6 +17,8 @@ $frecuencia = substr("$frecuencia", 12, 9);
 $latitude = exec("sudo sed -n '11p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $latitude = substr("$latitude", 9, 10);
 
+$longitude = exec("sudo sed -n '12p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$longitude = substr("$longitude", 10, 10);
 ?>
 <!DOCTYPE html>
 <html lang="en">

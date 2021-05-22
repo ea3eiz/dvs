@@ -1,12 +1,12 @@
 <?php 
 session_start();
-$Latitude=($_POST["Latitude"]);
-$_SESSION["Latitude"]=$Latitude;
+$latitude=($_POST["latitude"]);
 
-exec("sudo sed -i '11c Latitude=$Latitude' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
-exec("sudo sed -i '11c Latitude=$Latitude' /opt/MMDVM_Bridge/brandmeister_esp.ini");
-exec("sudo sed -i '11c Latitude=$Latitude' /opt/MMDVM_Bridge/dmrplus.ini");
-exec("sudo sed -i '11c Latitude=$Latitude' /opt/MMDVM_Bridge/especial.ini");
+
+exec("sudo sed -i '11c Latitude=$latitude' /opt/MMDVM_Bridge/MMDVM_Bridge_BM.ini");
+exec("sudo sed -i '11c Latitude=$latitude' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+exec("sudo sed -i '11c Latitude=$latitude' /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini");
+
 
 header("Location:/dvs/panel_configuracion.php");	
 
