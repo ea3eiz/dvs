@@ -53,7 +53,7 @@ display: none;
 <div class="content"><center>
 <div style="margin-top:8px;">
 
-<button class="button link_naranja"><a href="##" onclick="javascript:abre_caja_cambia_port();" style="color:#fff;">CAMBIAR Port TXPort</a></button>
+<button class="button link_naranja"><a href="/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
 
 
 <!--============== CAJA LOGIN ====================================-->
