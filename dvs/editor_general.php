@@ -26,6 +26,8 @@ $longitude = substr("$longitude", 10, 10);
 $location = exec("sudo sed -n '14p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $location = substr("$location", 9, 25);
 
+$url = exec("sudo sed -n '16p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$url = substr("$url", 4, 25);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -305,6 +307,13 @@ h6{
         <input name="location" class="fuente_boton3 form-control" placeholder="Introduce Ciudad  + Enter"> 
             <div class="fondo_datos">Ciudad: 
                 <span class="color_verde"><?php echo $location;?></span>
+            </div> 
+</form>
+
+<form method="post" action="cambia_configuracion_location.php">
+        <input name="url" class="fuente_boton3 form-control" placeholder="Introduce Web preferida  + Enter"> 
+            <div class="fondo_datos">URL: 
+                <span class="color_verde"><?php echo $url;?></span>
             </div> 
 </form>
 
