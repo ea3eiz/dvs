@@ -53,9 +53,6 @@ display: none;
 <div class="content"><center>
 <div style="margin-top:8px;">
 
-<button class="button link_naranja"><a href="/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
-
-
 <?php
 if ( RXMONITOR == "YES" ) {
 echo '<button class="button link" onclick="playAudioToggle(8080, this)"><b>&nbsp;&nbsp;&nbsp;<img src=images/speaker.png alt="" style="vertical-align:middle">&nbsp;&nbsp;RX Monitor&nbsp;&nbsp;&nbsp;</b></button>';}
