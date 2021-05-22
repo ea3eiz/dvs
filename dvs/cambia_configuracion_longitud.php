@@ -1,13 +1,11 @@
 <?php 
 session_start();
-$Longitude=($_POST["Longitude"]);
-$_SESSION["Longitude"]=$Longitude;
+$longitude=($_POST["longitude"]);
 
-exec("sudo sed -i '12c Longitude=$Longitude' /opt/MMDVM_Bridge/MMDVM_Bridge.ini");
-exec("sudo sed -i '12c Longitude=$Longitude' /opt/MMDVM_Bridge/brandmeister_esp.ini");
-exec("sudo sed -i '12c Longitude=$Longitude' /opt/MMDVM_Bridge/dmrplus.ini");
-exec("sudo sed -i '12c Longitude=$Longitude' /opt/MMDVM_Bridge/especial.ini");
+exec("sudo sed -i '12c Longitude=$longitude' /opt/MMDVM_Bridge/MMDVM_Bridge_BM.ini");
+exec("sudo sed -i '12c Longitude=$longitude' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+exec("sudo sed -i '12c Longitude=$longitude' /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini");
 
-header("Location:/dvs/panel_configuracion.php");	
+header("Location:/dvs/editor_general.php");	
 
 ?>
