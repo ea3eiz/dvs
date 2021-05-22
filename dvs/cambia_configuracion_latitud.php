@@ -10,4 +10,5 @@ exec("sudo sed -i '11c Latitude=$Latitude' /opt/MMDVM_Bridge/especial.ini");
 
 header("Location:/dvs/panel_configuracion.php");	
 
+
 ?>
