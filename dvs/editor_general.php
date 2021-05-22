@@ -19,6 +19,7 @@ $latitude = substr("$latitude", 9, 10);
 
 $longitude = exec("sudo sed -n '12p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $longitude = substr("$longitude", 10, 10);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -280,14 +281,19 @@ h6{
             </div> 
 </form>
 
+<form method="post" action="cambia_configuracion_longitud.php">
+        <input name="longitude" class="fuente_boton3 form-control" placeholder="Introduce Longitude  + Enter"> 
+            <div class="fondo_datos">Longitude: 
+                <span class="color_verde"><?php echo $longitude;?></span>
+            </div> 
+</form>
+
 <form method="post" action="cambia_configuracion_latitud.php">
         <input name="latitude" class="fuente_boton3 form-control" placeholder="Introduce Latitude  + Enter"> 
             <div class="fondo_datos">Latitude: 
                 <span class="color_verde"><?php echo $latitude;?></span>
             </div> 
 </form>
-
-
 
 
 
