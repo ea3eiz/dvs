@@ -364,6 +364,7 @@ input.toggle-round-flat:checked + label:after {
 }
 
 .link {background-color: #2A6594; outline:none;}
+.link_negro {background-color: #000000; outline:none;}
 .link_verde {background-color: #4D994A; outline:none;}
 .link_naranja {background-color: #d9540c; outline:none;}
 .link:hover {background-color: #3a87cd; outline:none;}
