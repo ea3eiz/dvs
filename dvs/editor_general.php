@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$puerto = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$puerto = exec("sudo sed -n '55p' /opt/Analog_Bridge/Analog_Bridge.ini");
 $puerto = substr("$puerto", 9, 5);
 
 $callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
