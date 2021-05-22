@@ -1,6 +1,9 @@
 <?php 
 session_start();
 
+$puerto = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$puerto = substr("$puerto", 9, 5);
+
 $callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $callsign = substr("$callsign", 9, 11);
 
@@ -238,7 +241,17 @@ h6{
  <div class="row">
     <div class="col-md-4 config_especial"><br>     
         <h5>CONFIGURACIÓN GENERAL</h5>
-     
+
+        <form method="post" action="../cambia_puerto.php">
+
+<input name="puerto" class="fuente_boton3 form-control" placeholder="Introduce Puerto USRP + Enter">
+    <div class="fondo_datos">Puerto USRP: 
+        <span class="color_verde"><?php echo $puerto;?></span>
+    </div>         
+
+</form>
+
+
 <form method="post" action="cambia_configuracion_indicativo.php">
 
         <input name="indicativo" class="fuente_boton3 form-control" placeholder="Introduce Indicativo + Enter">
