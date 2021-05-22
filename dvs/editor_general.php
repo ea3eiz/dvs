@@ -20,6 +20,12 @@ $latitude = substr("$latitude", 9, 10);
 $longitude = exec("sudo sed -n '12p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $longitude = substr("$longitude", 10, 10);
 
+$longitude = exec("sudo sed -n '12p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$longitude = substr("$longitude", 10, 10);
+
+$location = exec("sudo sed -n '14p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$location = substr("$location", 9, 25);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -281,13 +287,6 @@ h6{
             </div> 
 </form>
 
-<form method="post" action="cambia_configuracion_longitud.php">
-        <input name="longitude" class="fuente_boton3 form-control" placeholder="Introduce Longitude  + Enter"> 
-            <div class="fondo_datos">Longitude: 
-                <span class="color_verde"><?php echo $longitude;?></span>
-            </div> 
-</form>
-
 <form method="post" action="cambia_configuracion_latitud.php">
         <input name="latitude" class="fuente_boton3 form-control" placeholder="Introduce Latitude  + Enter"> 
             <div class="fondo_datos">Latitude: 
@@ -295,7 +294,19 @@ h6{
             </div> 
 </form>
 
+<form method="post" action="cambia_configuracion_longitud.php">
+        <input name="longitude" class="fuente_boton3 form-control" placeholder="Introduce Longitude  + Enter"> 
+            <div class="fondo_datos">Longitude: 
+                <span class="color_verde"><?php echo $longitude;?></span>
+            </div> 
+</form>
 
+<form method="post" action="cambia_configuracion_location.php">
+        <input name="ciudad" class="fuente_boton3 form-control" placeholder="Introduce Ciudad  + Enter"> 
+            <div class="fondo_datos">Ciudad: 
+                <span class="color_verde"><?php echo $ciudad;?></span>
+            </div> 
+</form>
 
 <form method="post" action="../index_dvswitch_buster.php">
     <button class="btn btn-warning btn-sm btn-block" type="submit">VOLVER AL DASHBOARD</button>
