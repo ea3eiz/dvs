@@ -232,7 +232,7 @@ h6{
 
 
 <div class="container"> 
-
+<br><br>
 <!--============== CAJA LOGIN ====================================-->      
  <div class="row">
     <div class="col-md-4 config_especial"><br>     
