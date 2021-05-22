@@ -250,7 +250,7 @@ h6{
 
 
 <div class="container"> 
-
+<br><br><br>
 <!--============== CAJA LOGIN ====================================-->      
  <div class="row">
     <div class="col-md-4 config_especial"><br>     
@@ -316,7 +316,7 @@ h6{
                 <span class="color_verde"><?php echo $url;?></span>
             </div> 
 </form>
-
+<br>
 <form method="post" action="../index_dvswitch_buster.php">
     <button class="btn btn-warning btn-sm btn-block" type="submit">VOLVER AL DASHBOARD</button>
 </form>
