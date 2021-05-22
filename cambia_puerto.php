@@ -13,5 +13,5 @@ exec("sudo systemctl restart mmdvm_bridge.service");
 exec("sudo systemctl restart nxdngateway.service");
 
 
-header("Location: vps/editor_general.php");
+header("Location: /vps/editor_general.php");
 ?>
