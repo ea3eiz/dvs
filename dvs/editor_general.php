@@ -14,6 +14,9 @@ $id = substr("$id", 3, 9);
 $frecuencia = exec("sudo sed -n '8p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $frecuencia = substr("$frecuencia", 12, 9);
 
+$latitude = exec("sudo sed -n '11p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
+$latitude = substr("$latitude", 11, 10);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -275,7 +278,12 @@ h6{
             </div> 
 </form>
 
-
+<form method="post" action="cambia_configuracion_latitud.php">
+        <input name="latitude" class="fuente_boton3 form-control" placeholder="Introduce Latitude  + Enter"> 
+            <div class="fondo_datos">Latitude: 
+                <span class="color_verde"><?php echo $latitude;?></span>
+            </div> 
+</form>
 
 
 
