@@ -202,8 +202,8 @@ background-image: url(img/fondo_02.png);
     border-radius: 8px 8px 8px 8px;
     }
 .config_especial{
-    height: 550px;
-    background:#091398;
+    height: 600px;
+    background:#d9540c;
     border-radius: 8px 8px 8px 8px;
     }
 h4{
