@@ -16,6 +16,8 @@
     { "disp": "REF078C", "tg": "REF078CL" },
     { "disp": "DCS006F", "tg": "DCS006FL" },
     { "disp": "DCS018Y", "tg": "DCS018YL" },
+    { "disp": "DCS018B", "tg": "DCS018BL" },
+    { "disp": "DCS018D", "tg": "DCS018DL" },
     { "disp": "DCS059A", "tg": "DCS059AL" }
     ],
     "ui": {

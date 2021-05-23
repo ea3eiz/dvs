@@ -11,6 +11,7 @@
     { "disp": "US Triangle NC", "tg": "ysf.trianglenc.net:42000" },
     { "disp": "EA C4FM", "tg": "212.237.3.141:42000" },
     { "disp": "ES-ADER 32027", "tg": "aderdigital.ddns.net:42000" },
+    { "disp": "EUROPELINK", "tg": "161.97.73.43:42000" },
     { "disp": "GB CQ-UK", "tg": "81.150.10.62:42200" }
     ],
     "ui": {
