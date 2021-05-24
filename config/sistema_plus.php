@@ -19,7 +19,7 @@ $options = substr("$options", 0, 50);
     <meta name="description" content="Allstar Link">
     <meta name="author" content="EA3EIZ">
 
-<!-- refresca la página cada 10 segundo (implantado por mi) -->
+<!-- refresca la página cada 10 segundo (implantado por mi) --> 
 <!-- ====================================================== -->
 <!-- <meta http-equiv="refresh" content="5" /> -->
 
