@@ -154,12 +154,12 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
     ?>
 
 </fieldset>
-<button class="button link_negro" ><a href="brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
-<button class="button link_negro"><a href="dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
-<button class="button link_negro"><a href="especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
-<button class="button link_naranja"><a href="/dvs/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
-<button class="button link_naranja"><a href="/dvs/sistema_brandmeister.php" class="btn btn-danger" style="color:#fff;">EDITAR BM</a</buttton>
-<button class="button link_naranja"><a href="/dvs/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
+<button class="button link_negro" ><a href="/dvs/brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
+<button class="button link_negro"><a href="/dvs/dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
+<button class="button link_negro"><a href="/dvs/especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
+<button class="button link_naranja"><a href="/dvs/dvs/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
+<button class="button link_naranja"><a href="/dvs/dvs/sistema_brandmeister.php" class="btn btn-danger" style="color:#fff;">EDITAR BM</a</buttton>
+<button class="button link_naranja"><a href="/dvs/dvs/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
 <button class="button link_rojo"><a href="/dvs/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
 
 <?php
