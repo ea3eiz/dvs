@@ -160,7 +160,7 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
 <button class="button link_naranja"><a href="/dvs/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
 <button class="button link_naranja"><a href="/dvs/sistema_brandmeister.php" class="btn btn-danger" style="color:#fff;">EDITAR BM</a</buttton>
 <button class="button link_naranja"><a href="/dvs/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
-<button class="button link_rojo"><a href="/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
+<button class="button link_rojo"><a href="/dvs/dvs/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
 
 <?php
 }else {
