@@ -233,7 +233,7 @@ h6{
 
 <div class="container"> 
 
-<!--============== CAJA LOGIN ====================================-->      
+<!--============== CAJA LOGIN ====================================-->       
  <div class="row">
     <div class="col-md-4 config_especial"><br>     
         <h5>CONFIGURACIÓN ESPECIAL</h5>
