@@ -256,7 +256,7 @@ h6{
     <div class="col-md-4 config_especial"><br>     
         <h5>CONFIGURACIÓN GENERAL</h5>
 
-        <form method="post" action="cambia_puerto.php">
+        <form method="post" action="/dvs/cambia_puerto.php">
 
 <input name="puerto" class="fuente_boton3 form-control" placeholder="Introduce Puerto USRP + Enter">
     <div class="fondo_datos">Puerto USRP: 
@@ -266,7 +266,7 @@ h6{
 </form>
 
 
-<form method="post" action="/config/cambia_configuracion_indicativo.php">
+<form method="post" action="/dvs/config/cambia_configuracion_indicativo.php">
 
         <input name="indicativo" class="fuente_boton3 form-control" placeholder="Introduce Indicativo + Enter">
             <div class="fondo_datos">Indicativo: 
@@ -275,49 +275,49 @@ h6{
 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_id.php">
+<form method="post" action="/dvs/config/cambia_configuracion_id.php">
         <input name="id" class="fuente_boton3 form-control" placeholder="Introduce Id de 9 Dígitos + Enter"> 
             <div class="fondo_datos">Id: 
                 <span class="color_verde"><?php echo $id;?></span>
             </div> 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_frecuencia.php">
+<form method="post" action="/dvs/config/cambia_configuracion_frecuencia.php">
         <input name="frecuencia" class="fuente_boton3 form-control" placeholder="Introduce Frecuencia 9 dígitos sin puntos + Enter"> 
             <div class="fondo_datos">Frecuencia RXF-TXF: 
                 <span class="color_verde"><?php echo $frecuencia;?></span>
             </div> 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_latitud.php">
+<form method="post" action="/dvs/config/cambia_configuracion_latitud.php">
         <input name="latitude" class="fuente_boton3 form-control" placeholder="Introduce Latitude  + Enter"> 
             <div class="fondo_datos">Latitude: 
                 <span class="color_verde"><?php echo $latitude;?></span>
             </div> 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_longitud.php">
+<form method="post" action="/dvs/config/cambia_configuracion_longitud.php">
         <input name="longitude" class="fuente_boton3 form-control" placeholder="Introduce Longitude  + Enter"> 
             <div class="fondo_datos">Longitude: 
                 <span class="color_verde"><?php echo $longitude;?></span>
             </div> 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_location.php">
+<form method="post" action="/dvs/config/cambia_configuracion_location.php">
         <input name="location" class="fuente_boton3 form-control" placeholder="Introduce Ciudad  + Enter"> 
             <div class="fondo_datos">Ciudad: 
                 <span class="color_verde"><?php echo $location;?></span>
             </div> 
 </form>
 
-<form method="post" action="/config/cambia_configuracion_url.php">
+<form method="post" action="/dvs/config/cambia_configuracion_url.php">
         <input name="url" class="fuente_boton3 form-control" placeholder="Introduce Web preferida  + Enter"> 
             <div class="fondo_datos">URL: 
                 <span class="color_verde"><?php echo $url;?></span>
             </div> 
 </form>
 <br>
-<form method="post" action="index_dvswitch_buster.php">
+<form method="post" action="/dvs/index_dvswitch_buster.php">
     <button class="btn btn-success btn-sm btn-block" type="submit">VOLVER AL DASHBOARD</button>
 </form>
 <br>
