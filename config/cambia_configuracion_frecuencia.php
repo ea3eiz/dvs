@@ -10,6 +10,6 @@ exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_BM
 exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini");
 
-header("Location:/dvs/editor_general.php");	
+header("Location:/dvs/config/editor_general.php");	
 
 ?>
