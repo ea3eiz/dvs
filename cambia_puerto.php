@@ -8,7 +8,7 @@ exec("sudo sed -i '56c rxPort = $puerto' /opt/Analog_Bridge/Analog_Bridge.ini");
 
 
 exec("sudo sed -i '5c \"usrpTxPort\": \"$puerto\",' /opt/Analog_Reflector/Analog_Reflector.json");
-exec("sudo sed -i '5c \"usrpRxPort\": \"$puerto\",' /opt/Analog_Reflector/Analog_Reflector.json");
+exec("sudo sed -i '6c \"usrpRxPort\": \"$puerto\",' /opt/Analog_Reflector/Analog_Reflector.json");
 
 exec("sudo sed -i '5c define(\"ABINFO\",\"$puerto\");' /var/www/html/dvs/include/config.php");
 exec("sudo sed -i '6c define(\"ABINFO\",\"$puerto\");' /var/www/html/dvs/include/config.php");
