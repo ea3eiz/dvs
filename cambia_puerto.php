@@ -11,6 +11,7 @@ exec("sudo systemctl restart analog_bridge.service");
 exec("sudo systemctl restart md380-emu.service");
 exec("sudo systemctl restart mmdvm_bridge.service");
 exec("sudo systemctl restart nxdngateway.service");
+exec("sudo systemctl restart ircddbgatewayd.service");
 
 
 header("Location: /dvs/config/editor_general.php");
