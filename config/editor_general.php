@@ -256,7 +256,7 @@ h6{
     <div class="col-md-4 config_especial"><br>     
         <h5>CONFIGURACIÓN GENERAL</h5>
 
-        <form method="post" action="/dvs/cambia_puerto.php">
+        <form method="post" action="/dvs/config/cambia_puerto.php">
 
 <input name="puerto" class="fuente_boton3 form-control" placeholder="Introduce Puerto USRP + Enter">
     <div class="fondo_datos">Puerto USRP: 
