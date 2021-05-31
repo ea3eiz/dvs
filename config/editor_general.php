@@ -28,6 +28,10 @@ $location = substr("$location", 9, 25);
 
 $url = exec("sudo sed -n '16p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $url = substr("$url", 4, 25);
+
+$reflector_dstar = exec("sudo sed -n '18p' /etc/ircddbgateway");
+$reflector_dstar = substr("$reflector_dstar", 11, 10);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
