@@ -9,6 +9,6 @@ exec("sudo sed -i '20c reconnect1=1' /etc/ircddbgateway");
 
 exec("sudo systemctl restart ircddbgatewayd.service");
 
-header("Location:/dvs/panel_configuracion.php");	
+header("Location:/dvs/config/editor_general.php");	
 
 ?>
