@@ -10,6 +10,10 @@ exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_BM
 exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 exec("sudo sed -i '9c TXFrequency=$frecuencia' /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini");
 
+exec("sudo sed -i '21c frequency1=$frecuencia' /etc/ircddbgateway");
+
+
+
 header("Location:/dvs/config/editor_general.php");	
 
 ?>
