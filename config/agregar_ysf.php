@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $nombre_sala="ES-ADER";
-$sala="aderdigital.ddns.net";
+$sala="aderdigital.ddns.net:42000";
 
 
 # guardamos el valor para luego recuperarlo llamando al script agrgar_ysf.sh
