@@ -10,7 +10,7 @@
 
 # Recuperamos el número de puerto guardado en la linea 40 de /home/pi/.local/datos_dvswitch y adjudicamos a la variable "valor"
 nombre_sala=$(awk "NR==1" /home/pi/.local/datos_dvswitch) 
-sala=$(awk "NR==1" /home/pi/.local/datos_dvswitch) 
+sala=$(awk "NR==2" /home/pi/.local/datos_dvswitch) 
 
 # Escribe el puerto en la linea 21 del fichero /opt/Analog_Bridge/analog_bridge.sh
-sed -i "sed '13a\ { \"disp\": $nombre_sala, \"tg\": \"$sala\" }, /opt/Analog_Reflector/arRoot/modes/YSF_node_list.json > YSF_node_list1.json"
+sed -i "sudo sed '13a\ { \"disp\": \"$nombre_sala\", \"tg\": \"$sala\" },' /opt/Analog_Reflector/arRoot/modes/YSF_node_list.json > YSF_node_list1.json"
