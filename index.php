@@ -93,7 +93,7 @@ color:#FD0847;
                           </div>
                     </div>
                 <button class="btn btn-lg btn-success btn-block" type="submit">
-                    Entrarxx</button>
+                    Entrar</button>
 
                         </form>
 
