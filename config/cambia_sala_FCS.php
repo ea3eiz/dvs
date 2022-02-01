@@ -2,11 +2,10 @@
 session_start();
 //Pasar a FCS |
 
-$sala_fcs=strtoupper($_POST["sala_fcs"]);
+$fcs=strtoupper($_POST["fcs"]);
+//$TG="9;";
+//$fcs=$TG.$fcs;
+exec("sudo sed -i '5c 9;$fcs' /opt/MMDVM_CM/DMR2YSF/TG-YSFList.txt");
 
-exec("sudo sed -i '40c txTg = $sala_fcs' /opt/Analog_Bridge/FCS.ini");
-exec("sudo sed -i '42c Startup=$sala_fcs' /opt/YSFClients/YSFGateway/YSFGateway.ini");
-
-
-header("Location:/dvs/panel_configuracion.php");	
+header("Location:/dvs/config/editor_general.php");	
 ?>

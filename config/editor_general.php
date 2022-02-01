@@ -1,12 +1,26 @@
 <?php 
 session_start();
 
+
+
+$reflector_dstar = exec("sudo sed -n '5p' /etc/ircddbgateway");
+$reflector_dstar = substr("$reflector_dstar", 12, 8);
+
+
+
+
+$fcs = exec("sudo sed -n '5p' /opt/MMDVM_CM/DMR2YSF/TG-YSFList.txt");
+$fcs = substr("$fcs", 2, 8);
+
+
+
+
+
 $puerto = exec("sudo sed -n '55p' /opt/Analog_Bridge/Analog_Bridge.ini");
 $puerto = substr("$puerto", 9, 5);
 
 $callsign = exec("sudo sed -n '2p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $callsign = substr("$callsign", 9, 11);
-
 
 $id = exec("sudo sed -n '3p' /opt/MMDVM_Bridge/MMDVM_Bridge_PLUS.ini");
 $id = substr("$id", 3, 9);
@@ -260,13 +274,20 @@ h6{
     <div class="col-md-4 config_especial"><br>     
         <h5>CONFIGURACIÓN GENERAL</h5>
 
-        <form method="post" action="/dvs/config/cambia_puerto.php">
+<form method="post" action="/dvs/config/cambia_sala_FCS.php">
+<input name="fcs" class="fuente_boton3 form-control" placeholder="Introduce Sala FCS ej:FCS0065 + Enter">
+    <div class="fondo_datos">Sala FCS:  
+        <span class="color_verde"><?php echo $fcs;?></span>
+    </div>         
+</form>
 
+
+
+<form method="post" action="/dvs/config/cambia_puerto.php">
 <input name="puerto" class="fuente_boton3 form-control" placeholder="Introduce Puerto USRP + Enter">
     <div class="fondo_datos">Puerto USRP: 
         <span class="color_verde"><?php echo $puerto;?></span>
     </div>         
-
 </form>
 
 
