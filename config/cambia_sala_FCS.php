@@ -8,7 +8,7 @@ $fcs=strtoupper($_POST["fcs"]);
 exec("sudo sed -i '5c 9;$fcs' /opt/MMDVM_CM/DMR2YSF/TG-YSFList.txt");
 
 exec("sudo systemctl restart analog_bridge.service");
-exec("sudo systemctl restart ircddbgateway.service");
+exec("sudo systemctl restart ircddbgatewayd.service");
 exec("sudo systemctl restart md380-emu.service");
 exec("sudo systemctl restart mmdvm_bridge.service");
 exec("sudo systemctl restart nxdngatewayd.service");
