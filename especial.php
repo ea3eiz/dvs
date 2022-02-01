@@ -8,7 +8,7 @@ exec("sudo cp /opt/MMDVM_Bridge/MMDVM_Bridge_ESPECIAL.ini /opt/MMDVM_Bridge/MMDV
 exec("sudo systemctl restart analog_bridge.service");
 exec("sudo systemctl restart md380-emu.service");
 exec("sudo systemctl restart mmdvm_bridge.service");
-exec("sudo systemctl restart nxdngateway.service");
+exec("sudo systemctl restart nxdngatewayd.service");
 
 header("Location: index_dvswitch_buster.php");
 ?>
