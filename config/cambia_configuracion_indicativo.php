@@ -13,6 +13,10 @@ exec("sudo sed -i '13c repeaterCall1=$indicativo' /etc/ircddbgateway");
 exec("sudo sed -i '95c ircddbUsername=$indicativo' /etc/ircddbgateway");
 exec("sudo sed -i '117c ircddbUsername=$indicativo' /etc/ircddbgateway");
 
+exec("sudo sed -i '115c dplusEnabled=1' /etc/ircddbgateway");
+exec("sudo sed -i '176c language=7' /etc/ircddbgateway");
+exec("sudo sed -i '179c logEnabled=1' /etc/ircddbgateway");
+
 exec("sudo sed -i '2c Callsign=$indicativo' /opt/YSFGateway/YSFGateway.ini");
 
 header("Location:/dvs/config/editor_general.php");	
