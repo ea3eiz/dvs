@@ -19,6 +19,8 @@ exec("sudo sed -i '179c logEnabled=1' /etc/ircddbgateway");
 
 exec("sudo sed -i '2c Callsign=$indicativo' /opt/YSFGateway/YSFGateway.ini");
 
+exec("sudo systemctl restart ircddbgatewayd.service");
+
 header("Location:/dvs/config/editor_general.php");	
 
 
