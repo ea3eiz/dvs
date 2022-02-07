@@ -154,15 +154,30 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
     ?>
 
 </fieldset>
-<button class="button link_negro" ><a href="/dvs/brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
-<button class="button link_negro"><a href="/dvs/dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
-<button class="button link_negro"><a href="/dvs/especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
-<button class="button link_negro"><a href="/dvs/fcs.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A FCS</a</buttton>
+
+<div>
+<button class="button link_dmr" ><a href="/dvs/brandmeister.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A BM</a</buttton>
+<button class="button link_dmr"><a href="/dvs/dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
+<button class="button link_especial"><a href="/dvs/especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
+<button class="button link_dstar"><a href="/dvs/config/cambiar_dstar.php" class="btn btn-success" style="color:#fff;">CAMBIAR A DSTAR</a</buttton>
+<button class="button link_nxdn"><a href="/dvs/fcs.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A NXDN</a</buttton>
+<button class="button link_ysf"><a href="/dvs/fcs.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A YSF</a</buttton>
+<button class="button link_dmr"><a href="/dvs/fcs.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A FCS</a</buttton>
+</div>
+
+<div>
 <button class="button link_naranja"><a href="/dvs/config/sistema_plus.php" class="btn btn-danger" style="color:#fff;">EDITAR DMR+</a</buttton>
 <button class="button link_naranja"><a href="/dvs/config/sistema_brandmeister.php" class="btn btn-danger" style="color:#fff;">EDITAR BM</a</buttton>
 <button class="button link_naranja"><a href="/dvs/config/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
 <button class="button link_naranja"><a href="/dvs/config/actualiza_reflectores.php" class="btn btn-success" style="color:#fff;">ACTUALIZAR REFLECTORES</a</buttton>
-<button class="button link_verde"><a href="/dvs/config/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
+</div>
+
+<button class="button link_rojo"><a href="/dvs/config/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
+
+
+
+
+
 <?php
 }else {
 header('Location:index.php');    
