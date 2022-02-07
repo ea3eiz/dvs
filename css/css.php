@@ -368,6 +368,16 @@ input.toggle-round-flat:checked + label:after {
 .link_negro {background-color: #000000; outline:none;}
 .link_verde {background-color: #4D994A; outline:none;}
 .link_naranja {background-color: #d9540c; outline:none;}
+
+
+
+.link_dstar {background-color: rgb(12, 235, 142); outline:none;}
+.link_nxdn {background-color: rgb(247, 99, 239); outline:none;}
+.link_ysf {background-color: rgb(240, 142, 202); outline:none;}
+.link_dmr {background-color:rgb(36, 162, 235); outline:none;}
+.link_especial {background-color:rgb(36, 66, 235); outline:none;}
+
+
 .link:hover {background-color: #3a87cd; outline:none;}
 .blink {background-color: #b00; outline:none; color:white}
 .blink:hover {background-color: #ff5722; outline:none;color:white}
@@ -449,4 +459,3 @@ input[type=text] {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
