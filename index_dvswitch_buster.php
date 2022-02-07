@@ -160,8 +160,8 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
 <button class="button link_dmr"><a href="/dvs/dmrplus.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A DMR+</a</buttton>
 <button class="button link_especial"><a href="/dvs/especial.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A ESPECIAL</a</buttton>
 <button class="button link_dstar"><a href="/dvs/config/cambiar_dstar.php" class="btn btn-success" style="color:#fff;">CAMBIAR A DSTAR</a</buttton>
-<button class="button link_nxdn"><a href="/dvs/cambiar_nxdn.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A NXDN</a</buttton>
-<button class="button link_ysf"><a href="/dvs/cambiar_ysf.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A YSF</a</buttton>
+<button class="button link_nxdn"><a href="/dvs/config/cambiar_nxdn.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A NXDN</a</buttton>
+<button class="button link_ysf"><a href="/dvs/config/cambiar_ysf.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A YSF</a</buttton>
 <button class="button link_dmr"><a href="/dvs/fcs.php" class="btn btn-danger" style="color:#fff;">CAMBIAR A FCS</a</buttton>
 </div>
 
