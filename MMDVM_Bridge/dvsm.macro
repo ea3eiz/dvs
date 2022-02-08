@@ -24,7 +24,7 @@ B = /opt/Analog_Bridge/brandmeister_esp.sh
 D = /opt/Analog_Bridge/dmrplus.sh
 C = /opt/Analog_Bridge/especial.sh
 A = /opt/Analog_Bridge/fcs.sh
-
+4 = /opt/Analog_Bridge/tgif.sh
 
 
 
