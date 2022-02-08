@@ -238,7 +238,7 @@ h6{
     <div class="col-md-4 config_tgif"><br>     
         <h5>CONFIGURACIÓN TGIF</h5>
   
-<form method="post" action="cambia_address_brandmeister.php">
+<form method="post" action="cambia_address_tgif.php">
 
         <input name="address_bm" class="fuente_boton3 form-control" placeholder="Introduce Address + Enter">
             <div class="fondo_datos">Address TGIF: 
@@ -247,7 +247,7 @@ h6{
 
 </form>
 
-<form method="post" action="cambia_puerto_brandmeister.php">
+<form method="post" action="cambia_puerto_tgif.php">
 
         <input name="port_bm" class="fuente_boton3 form-control" placeholder="Introduce Port + Enter">
             <div class="fondo_datos">Puerto TGIF: 
@@ -256,7 +256,7 @@ h6{
 
 </form>
 
-<form method="post" action="cambia_password_brandmeister.php">
+<form method="post" action="cambia_password_tgif.php">
 
         <input name="password_bm" class="fuente_boton3 form-control" placeholder="Introduce Password + Enter"> 
             <div class="fondo_datos">Password TGIF: 
