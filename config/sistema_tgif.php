@@ -240,7 +240,7 @@ h6{
   
 <form method="post" action="cambia_address_tgif.php">
 
-        <input name="address_bm" class="fuente_boton3 form-control" placeholder="Introduce Address + Enter">
+        <input name="address_tgif" class="fuente_boton3 form-control" placeholder="Introduce Address + Enter">
             <div class="fondo_datos">Address TGIF: 
                 <span class="color_verde"><?php echo $address;?></span>
             </div>         
@@ -249,7 +249,7 @@ h6{
 
 <form method="post" action="cambia_puerto_tgif.php">
 
-        <input name="port_bm" class="fuente_boton3 form-control" placeholder="Introduce Port + Enter">
+        <input name="port_tgif" class="fuente_boton3 form-control" placeholder="Introduce Port + Enter">
             <div class="fondo_datos">Puerto TGIF: 
                 <span class="color_verde"><?php echo $port;?></span>
             </div>         
@@ -258,7 +258,7 @@ h6{
 
 <form method="post" action="cambia_password_tgif.php">
 
-        <input name="password_bm" class="fuente_boton3 form-control" placeholder="Introduce Password + Enter"> 
+        <input name="password_tgif" class="fuente_boton3 form-control" placeholder="Introduce Password + Enter"> 
             <div class="fondo_datos">Password TGIF: 
                 <span class="color_verde"><?php echo $password;?></span>
             </div> 
