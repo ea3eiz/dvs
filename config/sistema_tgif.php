@@ -183,9 +183,9 @@ background-image: url(img/fondo_02.png);
     background:#6F2B0A;
     border-radius: 8px 8px 8px 8px;
     }
-.config_especial{
-    height: 350px;
-    background:#000000;
+.config_tgif{
+    height: 320px;
+    background:rgb(55, 27, 213);
     border-radius: 8px 8px 8px 8px;
     }
 h4{
@@ -235,7 +235,7 @@ h6{
 <br><br>
 <!--============== CAJA LOGIN ====================================-->       
  <div class="row">
-    <div class="col-md-4 config_especial"><br>     
+    <div class="col-md-4 config_tgif"><br>     
         <h5>CONFIGURACIÓN TGIF</h5>
   
 <form method="post" action="cambia_address_brandmeister.php">
