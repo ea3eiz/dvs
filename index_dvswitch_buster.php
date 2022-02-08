@@ -173,7 +173,7 @@ $mmdvmconfigfile = getMMDVMConfigFileContent();
 <button class="button link_naranja"><a href="/dvs/config/sistema_tgif.php" class="btn btn-danger" style="color:#fff;">EDITAR TGIF</a</buttton>
 
 <button class="button link_naranja"><a href="/dvs/config/sistema_especial.php" class="btn btn-success" style="color:#fff;">EDITAR ESPECIAL</a</buttton>
-<button class="button link_naranja"><a href="/dvs/config/actualiza_reflectores.php" class="btn btn-success" style="color:#fff;">ACTUALIZAR REFLECTORES</a</buttton>
+<button class="button link_verde"><a href="/dvs/config/actualiza_reflectores.php" class="btn btn-success" style="color:#fff;">ACTUALIZAR REFLECTORES</a</buttton>
 </div>
 
 <button class="button link_rojo"><a href="/dvs/config/editor_general.php" class="btn btn-success" style="color:#fff;">EDITOR GENERAL</a</buttton>
