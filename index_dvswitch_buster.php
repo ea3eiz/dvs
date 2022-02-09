@@ -48,6 +48,7 @@ display: none;
 <div class="header">
 <center>
 <h2>DVSwitch Dashboard&nbsp;&nbsp;<?php echo $callsign;?></h2>
+<img src="Logo_Ader.png" width="120" alt=""/></img>
 </center>
 </div>
 <div class="content"><center>
