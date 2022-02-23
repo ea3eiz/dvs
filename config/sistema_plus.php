@@ -227,23 +227,23 @@ body{
             <option value="Options=StartRef=4377;RelinkTime=15">4377</option>
             <option value="Options=StartRef=4378;RelinkTime=15">4378</option>
             <option value="Options=StartRef=4379;RelinkTime=15">4379</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=7">7</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=214">214</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=704">704</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=2140">2140</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=708">708</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS1_1=7226">7226</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21404">21404</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21410">21410</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21411">21411</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21418">21418</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21421">21421</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21423">21423</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21428">21428</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21429">21429</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21441">21441</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=21465">21465</option>
-            <option value="Options=StartRef=4000;RelinkTime=15;TS2_1=79999">79999</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">7</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">214</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">704</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">2140</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">708</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">7226</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21404</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21410</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21411</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21418</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21421</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21423</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21428</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21429</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21441</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">21465</option>
+            <option value="Options=StartRef=4000;RelinkTime=15">79999</option>
             <option value="">----------------------------------</option>
             </select>
             <br>
